@@ -1,7 +1,9 @@
 
 echo "Installing code style configs..."
 
-for /d %%d in (%HOMEPATH%\.IntelliJIdea*\config, %HOMEPATH%\.IdeaIC*\config, %HOMEPATH%\.AndroidStudio*\config) do ( for /r configs %%g in (*) copy %%g %%d )
+for /d %%d in ("%HomeDrive%%HomePath%\.IntelliJIdea*\config") do ( for %%g in (configs\*) copy %%g %%d )
+for /d %%d in ("%HomeDrive%%HomePath%\.IdeaIC*\config") do ( for %%g in (configs\*) copy %%g %%d )
+for /d %%d in ("%HomeDrive%%HomePath%\.AndroidStudio*\config") do ( for %%g in (configs\*) copy %%g %%d )
 
 echo "Done."
 echo ""
