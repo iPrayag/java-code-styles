@@ -1,8 +1,7 @@
 
 echo "Installing code style configs..."
 
-for /d %d in (%HOMEPATH%\.IntelliJIdea*\config, %HOMEPATH%\.IdeaIC*\config, %HOMEPATH%\.AndroidStudio*\config) do (
-copy config/* %d )
+for /d %d in (%HOMEPATH%\.IntelliJIdea*\config, %HOMEPATH%\.IdeaIC*\config, %HOMEPATH%\.AndroidStudio*\config) do (copy config/* %d)
 
 echo "Done."
 echo ""
