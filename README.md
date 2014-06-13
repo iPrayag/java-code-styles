@@ -1,13 +1,13 @@
 Java Code Styles
 ================
 
-IntelliJ IDEA code style settings for Square's Java and Android projects.
+IntelliJ IDEA and AndroidStudio code style settings for Maven Java, Square's Java and Android projects.
 
 
 Installation
 ------------
 
- * Run the `install.sh` script.
- * Restart IntelliJ if it's running.
- * Open IntelliJ Project Settings -> Code Styles, change the code style for the
-   project to the one you want.
+ * Run the `install.sh` or `install.bat` script
+ * Restart IDEA or Android Studio if it's running
+ * Open Project Settings -> Code Styles, change the code style for the
+   project to the one you want

@@ -1,7 +1,7 @@
 #!/bin/bash
-# Installs Square's IntelliJ configs into your user configs.
+# Installs Square's and maven IntelliJ configs into your user configs.
 
-echo "Installing Square code style configs..."
+echo "Installing code style configs..."
 
 if [ "$(uname)" == "Darwin" ]; then
   # Mac OS X platform
@@ -27,4 +27,4 @@ fi
 
 echo "Done."
 echo ""
-echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Square' or 'SquareAndroid'."
+echo "Restart IntelliJ IDEA and/or AndroidStudio, go to preferences, and apply 'maven', 'Square' or 'SquareAndroid'."
